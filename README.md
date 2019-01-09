@@ -1,6 +1,6 @@
 # Predicting Category of Reddit Post
 
-![header](images/reddit.png)
+![header](Images/reddit.png)
 
 ## Goal
 Build a classifier that predict category of a given Reddit Post to one of the following categories: Art or Programming
@@ -13,12 +13,12 @@ Build a classifier that predict category of a given Reddit Post to one of the fo
 Given clean, merged data, we used NLTK to tokenize, lemmatize and filter the data, giving us 95,000 unique features (words). From there we vectorized the data via TF-IDF calculation and dropped words below a threshold of 0.0001, words such as 'abcdefghijklmnopqrstuvwxyz'. This left us with around 5,000 words to model!
 
 ## Visualization of Data in Reduced Dimensions
-![header](images/2d.png)
+![header](Images/2d.png)
 
-![header](images/3d.png)
+![header](Images/3d.png)
 
 ## Performance of ML Models
-![header](images/evaluation.png)
+![header](Images/evaluation.png)
 
 ## Winner Winner Chicken Dinner!
-![header](images/mnb.png)
+![header](Images/mnb.png)
