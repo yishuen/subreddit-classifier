@@ -7,6 +7,7 @@ Build a classifier that predict category of a given Reddit Post to one of the fo
 
 ## Data Cleaning
 - A list of subreddit titles, classified (Kaggle). We extracted the 21 subreddits EACH classified as ‘arts’ and as ‘programming’ -- balanced data!
+- The .tsv file can be found here: https://www.kaggle.com/mswarbrickjones/reddit-selfposts#subreddit_info.csv
 - 1,000 reddit posts from every subreddit - we pulled 42,000 posts from our 42 subreddits
 
 ## Data Preprocessing / Feature Engineering
